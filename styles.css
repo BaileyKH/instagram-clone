@@ -3,3 +3,27 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: hsl(0, 0%, 0%);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Cookie", cursive;
+    border-bottom: 0.8px solid rgba(248, 248, 255, 0.394);
+    padding: 10px 5px;
+}
+
+.nav h1 {
+    color: hsl(16, 86%, 53%);
+    font-size: 2em;
+}
+
+.nav img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
