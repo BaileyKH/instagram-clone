@@ -8,18 +8,20 @@ body {
     background-color: hsl(0, 0%, 0%);
 }
 
+/* Nav Section */
+
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: "Cookie", cursive;
     border-bottom: 0.8px solid rgba(248, 248, 255, 0.394);
-    padding: 10px 5px;
+    padding: 20px 15px;
 }
 
 .nav h1 {
     color: hsl(16, 86%, 53%);
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 .nav img {
@@ -27,3 +29,95 @@ body {
     height: auto;
     border-radius: 50%;
 }
+
+/* Main Post Section */
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 25px;
+}
+
+/* Post Banner Section */
+
+.post-banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.post-banner img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.post-banner-content {
+    padding-left: 8px;
+    line-height: 1.5;
+}
+
+.post-banner-content .name {
+    font-weight: bold;
+}
+
+.img-container {
+    width: 100%;
+    margin: 15px 0;
+}
+
+/* Post Image Section */
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Status Section */
+
+.status-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding-left: 10px;
+}
+
+.interact-container {
+    display: flex;
+    align-items: center;
+}
+
+.fa-regular {
+    font-size: 1.5em;
+    padding-right: 25px;
+}
+
+.likes-el {
+    color: hsl(16, 86%, 53%);
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.status-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.status-content p {
+    padding-right: 10px;
+}
+
+.user-el {
+    color: hsl(16, 86%, 53%);
+    font-weight: bold;
+}
+
