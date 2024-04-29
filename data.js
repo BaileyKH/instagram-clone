@@ -17,8 +17,8 @@ export const users = [
     },
     {
         profilePic: "assets/witchProfile.webp",
-        name: "Mystic Hollow",
-        location: "Whisperwood Forrest",
+        name: "Bella Witcherson",
+        location: "Mystic Hollow",
         img: "assets/witchPost.webp",
         userName: "BrewHaHaBella",
         status: "Stirring up trouble and tea in equal measure. 🧙‍♀️✨ #WitchPlease #CauldronChronicles",
