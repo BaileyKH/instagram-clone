@@ -7,7 +7,7 @@ let count = 0
 heart.addEventListener("click", () => {
     count++
     likes.textContent = `${count} likes`
-    heart.style.color = "#9403fc"
+    heart.style.color = "#aa4ef5"
 })
 
 
